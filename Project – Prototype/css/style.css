@@ -2,3 +2,50 @@
 /* David Offenbacher */
 
 
+body {
+    background-color: #669900;
+    background-image: url('../images/wood_background2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: #fff;
+	background-color: #81D840;
+}
+
+a:hover {
+	color: #70BEC9;
+}
+
+a {
+	color: #81D840;
+	text-decoration: none;
+}
+
+.home {
+	padding: 100px;
+}
+
+.jumbotron {
+	background-color: #70BEC9;
+}
+
+p.bananaDetail {
+	margin-bottom: 1.2cm;
+}
+
+#terms {
+	color: red;
+}
+
+footer > p {
+	color: #000;
+	text-align: center;
+}
+
+footer > p > a {
+	color: #fff;
+}

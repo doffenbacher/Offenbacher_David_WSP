@@ -26,6 +26,9 @@
 					<li class="item5"><a href="login.html">User Login</a></li>
 					<li class="item6"><a href="signup.html">User Sign Up</a></li>
 				</ul>
+			</nav>
+		</header>
+		
 	<div class="jumbotron">
 		<div class="row">
 		  <div class="col-sm-6 col-md-4">
@@ -35,11 +38,77 @@
 			  </a>
 			  <div class="caption">
 				<h3>Banana Split Breakfast</h3>
-				<p>In about 10 minutes, you can whip up a super fun Banana Split Breakfast Buffet that will fill your home with lots of festivity, as well as fill those little bellies with good-for-you food.</p>
+				<p class="bananaDetail">In about 10 minutes, you can whip up a super fun Banana Split Breakfast Buffet that will fill your home with lots of festivity, as well as fill those little bellies with good-for-you food.</p>
 				<p><a href="detail.html" class="btn btn-default" role="button">Details</a></p>
 				</div>
 			</div>
 		  </div>
+		  
+		  <!-- Button trigger modal -->
+				
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Green Juice</h4>
+					  </div>
+					  <div class="modal-body">
+						
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+									<div class="thumbnail">
+					
+										<a href="images/green_juice.jpg">
+										<img style="float: none" src="images/green_juice2.jpg" alt="Picture of Green Juice Preperation." height="300" width="300" class="img-thumbnail" >
+										</a>
+					
+										<div class="caption">
+										<h2>Green Juice </h2>
+										<h3>Ingredients</h3>
+										<ul>
+											<li>Lettuces – </li>
+												<ul>
+													<li>Red or Green Leaf Lettuce - 2-3 leaves</li>
+													<li>Romaine (¼ – ½ head)</li>
+													<li>Endive - 2-3 leaves</li>
+													<li>Escarole - 2-3 leaves</li>
+													<li>Beet Tops - 2-3 young inner leaves</li>
+													<li>Watercress - 2-4 leaves</li>
+													<li>Swiss Chard - 2 leaves</li>
+												</ul>
+											<li>Green Bell Pepper - ¼ of a medium pepper</li>
+											<li>Granny Smith Apple - 1 medium</li>
+											<li>**<em>Optional - Beet Root (will turn green juice red)</em>**</li>
+										</ul>
+										<h3>Preparation:</h3>
+											<ol>
+												<li>Rinse off greens of sand or soil</li>
+												<li>Shake off water and trim ends</li>
+												<li>Chop leaves into ½” ribbons</li>
+												<li>Cut up apple to remove seeds and stem</li>
+												<li>Run lettuce, pepper and apple though juicer</li>
+											</ol>
+										<p>Enjoy juice as soon as finished juicing on an empty stomach to absorb all the live enzymes and nutrients. Enzymes are required for every chemical action that takes place in our body.  Our ability to utilize vitamins and minerals is run by enzymes. We need enzymes for proper digestion and cell repair.  Our natural enzymes diminish as we age.</p>
+										<p>What do all plants have in common? Plants are the only type of organism that take light energy from the sun and convert it into sugar. This process is called photosynthesis. Drinking juice is like drinking pure energy.<p/>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+		  
+		  
+		  
+		  
 		  <div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
 			  <a href="images/SummerRoll.jpg">
@@ -60,13 +129,19 @@
 			  <div class="caption">
 				<h3>Green Juice</h3>
 				<p>If you're here and you're new to juicing, you may find that this tastes a bit "earthy" because your taste buds may not be used to this whole thing. Just add an extra apple or two to sweeten it up.</p>
-				<p><a href="#" class="btn btn-default" role="button">Details</a></p>
+				<button type="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#myModal">
+				  Details
+				</button>
 			  </div>
 			</div>
 		  </div>
 		</div>
 	</div>
-	
+
+    <footer>
+        <p>Created by: David Offenbacher <br> Contact information: <a href="mailto:davidoffenbacher@fullsail.edu">davidoffenbacher@fullsail.edu</a></p>
+    </footer>
+
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>	
