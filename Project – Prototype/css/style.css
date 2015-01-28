@@ -29,12 +29,30 @@ a {
 	padding: 100px;
 }
 
-.jumbotron {
+.jumbotron.results, .jumbotron.detail, .jumbotron.favorites, .jumbotron.login, .jumbotron.signup {
 	background-color: #70BEC9;
+}
+
+.jumbotron.home {
+	background-image: url('../images/Veggies.png');
+	background-size: cover;
+}
+
+
+.jumbotron h1 {
+	color: #000;
+}
+
+.jumbotron p {
+	color: #000;
 }
 
 p.bananaDetail {
 	margin-bottom: 1.2cm;
+}
+
+p.greenJuiceDetail {
+	margin-bottom: .75cm;
 }
 
 #terms {
