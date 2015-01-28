@@ -35,6 +35,7 @@ a {
 
 .jumbotron.home {
 	background-image: url('../images/Veggies.png');
+	height: 625px; 
 	background-size: cover;
 }
 
