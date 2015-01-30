@@ -29,6 +29,10 @@ a {
 	padding: 100px;
 }
 
+.jumbotron.login {
+	margin-bottom: 8cm;
+}
+
 .jumbotron.results, .jumbotron.detail, .jumbotron.favorites, .jumbotron.login, .jumbotron.signup {
 	background-color: #70BEC9;
 }
@@ -52,8 +56,26 @@ p.bananaDetail {
 	margin-bottom: 1.2cm;
 }
 
+#search {
+	margin-bottom: 2cm;
+}
+
+#searchNow {
+	margin-bottom: .5cm;
+}
+
 #terms {
 	color: red;
+}
+
+.photos {
+    clear: both;
+    margin-bottom: 2cm;
+}
+
+.photos img{
+    margin-left: 2px;
+    border: 5px solid #383838;
 }
 
 footer > p {
@@ -64,3 +86,5 @@ footer > p {
 footer > p > a {
 	color: #fff;
 }
+
+

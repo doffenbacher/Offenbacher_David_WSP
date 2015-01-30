@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-		<title>signup.html</title>
-			<meta name="description" content="HealthyCook.com index.html">
+		<title>HealthyCook.com</title>
+			<meta name="description" content="HealthyCook.com signup.html">
 			<meta name="author" content="David Offenbacher">
 
 	<link rel="stylesheet" href="css/normalize.css">
@@ -37,27 +37,27 @@
 		<form>
 		  <div class="form-group">
 		  	<label for="inputFirstName">First Name</label>
-			<input type="text" class="form-control"  placeholder="First Name">
+			<input type="text" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Please enter your First Name" placeholder="First Name">
 		  </div>
 		  
 		  <div class="form-group">
 		  <label for="inputLastName">Last Name</label>
-			<input type="text" class="form-control" placeholder="Last Name">
+			<input type="text" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Please enter your Last Name" placeholder="Last Name">
 		  </div>
 		  
 		  <div class="form-group">
 			<label for="inputEmail">Email address</label>
-			<input type="email" class="form-control" id="inputEmail" placeholder="example@example.com" required>
+			<input type="email" class="form-control" id="inputEmail" data-toggle="tooltip" data-placement="bottom" title="Please enter your Email Address" placeholder="example@example.com" required>
 		  </div>
 		  
 		  <div class="form-group">
 			<label for="inputPassword">Password</label>
-			<input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+			<input type="password" class="form-control" id="inputPassword" data-toggle="tooltip" data-placement="bottom" title="Please enter your Password" placeholder="Password" required>
 		  </div>
 		  
 		  <div class="form-group">
 			<label for="inputPassword">Password</label>
-			<input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password" required>
+			<input type="password" class="form-control" id="inputPassword" data-toggle="tooltip" data-placement="bottom" title="Please Re-Enter Password" placeholder="Confirm Password" required>
 		  </div>
 		  
 		  <div class="checkbox">
@@ -67,7 +67,7 @@
 		  </div>
 		  
 		<div class="form-group">
-			<p><a class="btn btn-primary btn-lg" href="results.html" role="button">Sign Up</a></p>
+			<p><a class="btn btn-primary btn-lg" href="results.html" data-toggle="tooltip" data-placement="bottom" title="Click here to Sign Up" role="button">Sign Up</a></p>
 		</div>
 		</form>
 	</div>
@@ -78,7 +78,19 @@
 
 	</div>
 
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>	
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    
 </body>
 </html>
